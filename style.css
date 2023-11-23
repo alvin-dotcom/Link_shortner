@@ -1,0 +1,111 @@
+* {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+body{
+    background-color: rgb(6, 148, 148);
+}
+
+.main{
+    position: relative;
+    background-color: rgb(150, 220, 330);
+    height: 350px;
+    width: 500px;
+    top: 50;
+    left: 50;
+    transform: translate(80%,40%);
+    border: 5px solid rgb(13, 99, 99);
+    border-radius: 20px;
+    
+}
+
+#longurl{
+    position: relative;
+    top: 40%;
+    left: 10%;
+    height: 40px;
+    word-wrap: 300px;
+    border: 2px solid rgb(13, 99, 99);
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 30px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#shorten{
+    position: relative;
+    top: 40%;
+    left: 12%;
+    height: 40px;
+    width: 80px;
+    border: 2px solid rgb(13, 99, 99);
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    background-color: rgb(13, 99, 99);
+}
+
+#shorten:hover{
+    background-color: rgb(6, 87, 87);
+}
+
+#shorturl {
+    position: relative;
+    top: 45%;
+    left: 10%;
+    height: 40px;
+    width: 270px;
+    border: 2px solid rgb(13, 99, 99);
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 47px;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+#copy:hover{
+    background-color: grey;
+}
+
+#copy{
+    position: relative;
+    top: 46%;
+    left: 0%;
+    height: 35px;
+    width: 35px;
+    border: 2px solid rgb(13, 99, 99);
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    background-color: rgb(6, 87, 87);
+}
+
+.main p{
+    position: relative;
+    top: 10%;
+    left: 10%;
+    height: 20px;
+    width: 400px;
+    font-size: 60px;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(13, 99, 99);
+}
+.main h3{
+    position: relative;
+    top: 50%;
+    left: 11%;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(13, 99, 99);
+}
